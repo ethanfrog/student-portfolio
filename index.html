@@ -1,75 +1,82 @@
 <!DOCTYPE html>
+
 <html>
   <head>
-    <title>CSS Box Styling</title>
+    <title>Ethan Wynne's Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
+
   <body>
     <!-- Header -->
     <header>
-      <h1>Welcome to the store!</h1>
+      <h1>Ethan Wynne</h1>
+      <h2>Student Portfolio</h2>
+      <img src="./assets/images/square-dot.png" alt="my icon" />
+    </header>
+
+    <!-- Contents -->
+      <nav>
+        <a href="#">About Me</a>
+        <a href="#">My Work</a>
+        <a href="#">Contact Info</a>
+      </nav>
+
+    <!-- About Me -->
+    <header>
+      <h1>About Me</h1>
       <p>
-        Add some box styling to the product cards to make them POP!
+        Motivated Computer Science graduate seeking my first full-time position in the field of web development.
+        Experienced with 4+ programming languages. Solid team player with proven skills in programming and graphic design.
+        My other interests include app development, information technology, typography and digital artwork.
       </p>
     </header>
 
-    <!-- Navbar -->
-    <nav>
-      <a href="#">Camera</a>
-      <a href="#">Tablet</a>
-      <a href="#">Toilet Paper</a>
-      <a href="#">Wooden Spoons</a>
-    </nav>
-
     <!-- Body -->
     <main>
-      <!-- Sidebar -->
-      <aside>
-        <h2>The product cards would look better if...</h2>
-        <li>the corners were rounded out</li>
-        <li>there was a shadow</li>
-        <li>they were rotated slightly</li>
-      </aside>
-      <!-- Product Cards -->
-      <div class="products">
+      <!-- Large Project Card -->
+      <header>My Work</header>
+
+      <section class="card">
+        <header>Prework Project</header>
+        <p>My first webpage</p>
+        <img src="./assets/images/prework-study-guide.png" alt="prework study guide webpage" />
+      </section>
+
+      <!-- Small Project Cards -->
+      <div class="projects">
         <section class="card">
-          <header>Camera</header>
-          <img src="./assets/images/camera.jpg" alt="black camera" />
-          <p>Price: $300</p>
+          <header>Horiseon Homepage</header>
+          <p>Refactored webpage</p>
+          <img src="./assets/images/mod1challenge.png" alt="horiseon webpage" />
         </section>
         <section class="card">
-          <header>Tablet</header>
-          <img src="./assets/images/tablet.jpg" alt="tablet held in hands" />
-          <p>Price: $150</p>
+          <header>To Be Added</header>
+          <p>--</p>
+          <img src="./assets/images/to-be-added.png" alt="to be added" />
         </section>
         <section class="card">
-          <header>Toilet Paper</header>
-          <img
-            src="./assets/images/toilet-paper.jpg"
-            alt="rolls of toilet paper in a basket"
-          />
-          <p>Price: $30</p>
+          <header>To Be Added</header>
+          <p>--</p>
+          <img src="./assets/images/to-be-added.png" alt="to be added" />
         </section>
         <section class="card">
-          <header>Wooden Spoons</header>
-          <img
-            src="./assets/images/wooden-spoons.jpg"
-            alt="4 wooden spoons with different seasonings"
-          />
-          <p>Price: $10</p>
+          <header>To Be Added</header>
+          <p>--</p>
+          <img src="./assets/images/to-be-added.png" alt="to be added" />
         </section>
       </div>
     </main>
 
-    <!-- Footer -->
-    <footer>
-      <h3>
-        Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
-        window!
-      </h3>
-    </footer>
+    <!-- Contact Info -->
+    <header>Contact Information</header>
+    <nav>
+      <a href="#">248-392-1326</a>
+      <a href="#">ethan@phasic.com</a>
+      <a href="#">github.com/ethanfrog</a>
+    </nav>
+
   </body>
 </html>

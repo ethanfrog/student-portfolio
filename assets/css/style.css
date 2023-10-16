@@ -1,9 +1,11 @@
 * {
+  background-color: rgb(15,15,15);
+  color: rgb(255,255,255);
+  font-family: 'Verdana', 'Lucida Sans', 'Comic Sans';
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -14,17 +16,14 @@ body {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
 }
 
 nav {
   display: flex;
-  background-color: #d8a47f;
 }
 
 nav a {
-  color: #13293d;
+  background-color: rgb(45,45,45);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -36,26 +35,16 @@ main {
   flex-grow: 1;
 }
 
-aside {
-  flex: 1;
-  background-color: #b9c6ae;
-  padding: 80px;
-  text-align: left;
-}
-
 footer {
   width: 100%;
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
   margin-top: auto;
 }
 
-.products {
+.projects {
   flex: 4;
-  background-color: #fff;
-  padding: 50px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -65,18 +54,14 @@ footer {
 /* Added rotation, box-shadow, border-radius */
 .card {
   border-style: solid;
-  border-width: 1px;
-  border-radius: 50px;
+  border-width: 5px;
   padding: 10px;
   flex: 0 0 300px;
-  transform: rotate(8deg);
-  box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
 }
 
 /* Added border-radius to match the card */
 .card header {
-  border-radius: 50px 50px 0px 0px;
   padding: 20px;
 }
 
