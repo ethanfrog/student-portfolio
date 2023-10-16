@@ -9,23 +9,41 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   justify-content: flex-start;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+ul {
+  text-align: center;
+}
+
+#profile-pic {
+  max-width: 200px;
 }
 
 header {
   background-color: red;
 
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 
 nav {
+  background-color: green;
+
   display: flex;
 }
 
 nav a {
-  background-color: rgb(45,45,45);
+  background-color: blue;
+
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -37,13 +55,6 @@ main {
   flex-grow: 1;
 }
 
-footer {
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  margin-top: auto;
-}
-
 .projects {
   flex: 4;
   padding: 0px;
@@ -53,7 +64,6 @@ footer {
   align-items: flex-start;
 }
 
-/* Added rotation, box-shadow, border-radius */
 .card {
   border-style: solid;
   border-width: 5px;
@@ -62,8 +72,8 @@ footer {
   margin: 20px;
 }
 
-/* Added border-radius to match the card */
 .card header {
+  font-style: italic;
   padding: 20px;
 }
 
