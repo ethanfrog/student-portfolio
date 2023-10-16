@@ -1,8 +1,8 @@
-# <Module 1 Challenge>
+# <Professional Student Portfolio>
 
 ## Description
 
-This project is a code refactor for Horiseon's homepage. No functionality was changed or added, but the underlying code was reorganized and image accessibility features were implemented.
+This project is a webpage for my coding boot camp student portfolio. It displays a section about me, all of the projects that I have previously completed and my contact information.
 
 ## Installation
 
@@ -10,11 +10,11 @@ N/A
 
 ## Usage
 
-The project currently has no functionality beyond viewing the content of the homepage.
+Click the navigation links at the top of the page to jump to different sections of the webpage. Click the project images to travel to their respective webpages.
 
 ## Credits
 
-N/A
+CSS reset file provided by Michigan State University.
 
 ## License
 
