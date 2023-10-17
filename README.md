@@ -12,7 +12,7 @@ N/A
 
 Click the navigation links at the top of the page to jump to different sections of the webpage. Click the project images to travel to their respective webpages.
 
-[Student Portfolio](https://ethanfrog.github.io/mod1challenge)
+[Student Portfolio](https://ethanfrog.github.io/student-portfolio/)
 
 ![Student Portfolio Homepage](./assets/images/portfolio-homepage.png)
 
