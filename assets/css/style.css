@@ -1,5 +1,5 @@
 * {
-  background-color: black;
+  background-color: rgb(10,15,19);
   color: white;
   font-family: 'Verdana', 'Lucida Sans', 'Comic Sans';
   text-align: center;
@@ -15,6 +15,8 @@ main {
 
 h1 {
   font-size: 72px;
+  text-align: left;
+  padding: 50px;
 }
 
 .webpage-header {
@@ -30,14 +32,11 @@ h1 {
 .large-card {
   display: flex;
   flex-wrap: wrap;
-
-  border-style: solid;
-  border-width: 5px;
+  padding: 0px 50px;
 }
 #large-project-image {
   max-width: 400px;
 }
-
 
 nav {
   display: flex;
@@ -53,10 +52,15 @@ nav a {
 
 h2 {
   font-size: 36px;
+  padding: 30px;
+}
+#about-text {
+  padding: 10px 50px;
 }
 
 ul {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 header {
@@ -64,6 +68,7 @@ header {
 
   padding: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 .projects {
@@ -76,15 +81,12 @@ header {
 }
 
 .card {
-  border-style: solid;
-  border-width: 5px;
   padding: 10px;
   flex: 0 0 300px;
   margin: 20px;
 }
 
 .card header {
-  font-style: italic;
   padding: 20px;
 }
 

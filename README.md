@@ -14,7 +14,7 @@ Click the navigation links at the top of the page to jump to different sections 
 
 [Student Portfolio](https://ethanfrog.github.io/mod1challenge)
 
-![Student Portfolio Homepage](./assets/images/square-dot.png)
+![Student Portfolio Homepage](./assets/images/portfolio-homepage.png)
 
 ## Credits
 
