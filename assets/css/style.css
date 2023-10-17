@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
   font-family: 'Verdana', 'Lucida Sans', 'Comic Sans';
+  text-align: center;
   box-sizing: border-box;
 }
 
@@ -22,6 +23,21 @@ h1 {
 
   align-items: center;
 }
+#profile-pic {
+  max-width: 200px;
+}
+
+.large-card {
+  display: flex;
+  flex-wrap: wrap;
+
+  border-style: solid;
+  border-width: 5px;
+}
+#large-project-image {
+  max-width: 400px;
+}
+
 
 nav {
   display: flex;
@@ -41,10 +57,6 @@ h2 {
 
 ul {
   text-align: center;
-}
-
-#profile-pic {
-  max-width: 200px;
 }
 
 header {
